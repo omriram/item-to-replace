@@ -1,0 +1,10 @@
+.item-to-replace-figure {
+   margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    & > * {
+        margin-bottom: .45rem;
+    }
+}

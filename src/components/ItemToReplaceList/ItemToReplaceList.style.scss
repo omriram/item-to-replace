@@ -1,0 +1,17 @@
+.items{
+    height: 55vh;
+    overflow: auto;
+    & > * {
+        padding: .5rem;
+        border-bottom: solid 1px #dad7d7;
+    }
+}
+
+.holder {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-top: solid 3px #dad7d7;
+    border-bottom: solid 3px #dad7d7;
+}
+
