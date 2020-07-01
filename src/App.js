@@ -95,6 +95,7 @@ class App extends Component {
           padding: "1rem",
           border: "solid 5px #dad7d7",
           borderRadius: "10px",
+          backgroundColor: "red",
         }}
       >
         <Row
