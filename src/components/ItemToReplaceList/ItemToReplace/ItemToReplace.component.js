@@ -62,7 +62,5 @@ const ItemToReplace = ({
     </Figure>
   );
 };
-/*      {item.Name} <br />
-        {weight} <br />
-        <strong>{item.SalePrice} &#8362;</strong> */
+
 export default ItemToReplace;

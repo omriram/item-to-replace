@@ -15,18 +15,37 @@ const AdditionalItem = ({ item, prevItem, onCheckOtherOptionsClick }) => {
         />
         <Figure.Caption
           style={{
-            overflow: "hidden",
-            width: "10rem",
+            display: "flex",
+            flexDirection: "column",
             fontSize: ".85rem",
             textAlign: "right",
+            width: "100%",
+            alignItems: "center",
           }}
         >
-          {item.Name} <br />
-          <strong>{item.SalePrice} &#8362;</strong> {"  /  " + item.ContentQty}
+          <span style={{ marginBottom: "1rem" }}>
+            {item.Qty + " יח' " + item.Name + "."}
+          </span>
+
+          <span style={{}}>
+            <strong>{item.SalePrice + "  "} &#8362;</strong>
+            {"  /  " + item.ContentQty}
+          </span>
+
+          <div
+            style={{ display: "flex", width: "100%", justifyContent: "center" }}
+          >
+            <span style={{ marginLeft: "1rem" }}>
+              <strong>{`סה"כ:`}</strong>
+            </span>
+            <span>
+              {" "}
+              <strong> {item.SalePrice * item.Qty + "  "}&#8362;</strong>
+            </span>
+          </div>
         </Figure.Caption>
-        <div className="group-fields"></div>
         <Button
-          style={{ width: "100%", marginTop: "auto" }}
+          style={{ width: "10rem", marginTop: "auto" }}
           onClick={() => onCheckOtherOptionsClick(item, true, prevItem)}
           variant="info"
         >
