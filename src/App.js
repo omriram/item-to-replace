@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/header/header.component";
 import ItemToReplaceList from "./components/item-to-replace-list/item-to-replace-list.component";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Button, Figure } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 import AdditionalItemList from "./components/additional-item-list/additional-item-list.component";
 import objInfo from "./assets/jsonFormat";
 import Logo from "./assets/logo.jpg";
