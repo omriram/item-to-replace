@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "./components/header/header.component";
+import Header from "./components/Header/Header.component";
 import ItemToReplaceList from "./components/item-to-replace-list/item-to-replace-list.component";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Button } from "react-bootstrap";

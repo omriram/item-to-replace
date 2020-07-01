@@ -1,6 +1,6 @@
 import React from "react";
 import { Figure } from "react-bootstrap";
-import "./header.style.scss";
+import "./Header.style.scss";
 
 const Header = ({ msg, fName, lName, logo }) => {
   return (
