@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import Header from "./components/Header/Header.component";
-import ItemToReplaceList from "./components/ItemToReplaceList/ItemToReplaceList.component";
+import Header from "./components/header/header.component";
+import ItemToReplaceList from "./components/item-to-replace-list/item-to-replace-list.component";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Button, Figure } from "react-bootstrap";
-import AdditionalItemList from "./components/AdditionalItemList/AdditionalItemList.component";
-import ChosenItem from "./components/ChosenItem/ChosenItem.component";
+import AdditionalItemList from "./components/additional-item-list/additional-item-list.component";
 import objInfo from "./assets/jsonFormat";
 import Logo from "./assets/logo.jpg";
 import "./App.scss";

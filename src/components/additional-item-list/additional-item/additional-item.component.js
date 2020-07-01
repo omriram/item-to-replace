@@ -1,8 +1,7 @@
 import React from "react";
 import { Figure, Button } from "react-bootstrap";
-import "./AdditionalItem.style.scss";
-import "../AdditionalItemList.style.scss";
-import back from "../../../assets/back.jpg";
+import "./additional-item.style.scss";
+import "../additional-item-list.style.scss";
 
 const AdditionalItem = ({ item, prevItem, onCheckOtherOptionsClick }) => {
   return (

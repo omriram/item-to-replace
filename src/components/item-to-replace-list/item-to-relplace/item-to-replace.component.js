@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Button, Figure } from "react-bootstrap";
 import Bread from "../../../assets/bread.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./ItemToReplace.style.scss";
+import "./item-to-replace.style.scss";
 
 const description = "לחם 100% קמח מלא קל בתוספת שיפון פרוס אנג'ל";
 const price = "15";

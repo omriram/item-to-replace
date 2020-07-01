@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import AdditionalItem from "./AdditionalItem/AdditionalItem.component";
+import AdditionalItem from "./additional-item/additional-item.component";
 
-import "./AdditionalItemList.style.scss";
+import "./additional-item-list.style.scss";
 
 const AdditionalItemList = ({ addtionalItems, onCheckOtherOptionsClick }) => {
   const additonalItemList = addtionalItems.alternatives.map((item) => {

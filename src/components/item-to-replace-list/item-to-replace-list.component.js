@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ItemToReplace from "./ItemToReplace/ItemToReplace.component";
+import ItemToReplace from "./item-to-relplace/item-to-replace.component";
 import { Container, Row, Figure, Badge } from "react-bootstrap";
-import "./ItemToReplaceList.style.scss";
+import "./item-to-replace-list.style.scss";
 
 class ItemToReplaceList extends Component {
   constructor(props) {
