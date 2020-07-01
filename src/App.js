@@ -86,7 +86,9 @@ class App extends Component {
   }
 
   render() {
-    return (
+    const { orderReplacements } = this.state;
+
+    return Object.keys(orderReplacements).length > 0 ? (
       <Container
         style={{
           height: "100vh",
@@ -115,20 +117,16 @@ class App extends Component {
             position: "relative",
           }}
         >
-          {Object.keys(this.state.orderReplacements).length > 0 && (
-            <React.Fragment>
-              <ItemToReplaceList
-                orderReplacements={this.state.orderReplacements}
-                onCheckOtherOptionsClick={this.onCheckOtherOptionsClick}
-                itemsToPick={this.state.itemsToPick}
-              />
-              {this.state.showOptions && (
-                <AdditionalItemList
-                  addtionalItems={this.state.addtionalItems}
-                  onCheckOtherOptionsClick={this.onCheckOtherOptionsClick}
-                />
-              )}
-            </React.Fragment>
+          <ItemToReplaceList
+            orderReplacements={this.state.orderReplacements}
+            onCheckOtherOptionsClick={this.onCheckOtherOptionsClick}
+            itemsToPick={this.state.itemsToPick}
+          />
+          {this.state.showOptions && (
+            <AdditionalItemList
+              addtionalItems={this.state.addtionalItems}
+              onCheckOtherOptionsClick={this.onCheckOtherOptionsClick}
+            />
           )}
         </Row>
         <Row
@@ -140,6 +138,8 @@ class App extends Component {
           <Button variant="success">אישור</Button>
         </Row>
       </Container>
+    ) : (
+      <div>loading...</div>
     );
   }
 }
