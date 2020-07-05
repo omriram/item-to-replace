@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/item-to-replace/static/css/main.341a633f.chunk.css",
-    "main.js": "/item-to-replace/static/js/main.8aa1b680.chunk.js",
-    "main.js.map": "/item-to-replace/static/js/main.8aa1b680.chunk.js.map",
+    "main.css": "/item-to-replace/static/css/main.914d348c.chunk.css",
+    "main.js": "/item-to-replace/static/js/main.776606cf.chunk.js",
+    "main.js.map": "/item-to-replace/static/js/main.776606cf.chunk.js.map",
     "runtime-main.js": "/item-to-replace/static/js/runtime-main.9b11940b.js",
     "runtime-main.js.map": "/item-to-replace/static/js/runtime-main.9b11940b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/item-to-replace/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.44f48699.chunk.js": "/item-to-replace/static/js/2.44f48699.chunk.js",
-    "static/js/2.44f48699.chunk.js.map": "/item-to-replace/static/js/2.44f48699.chunk.js.map",
+    "static/js/2.e10ad7c7.chunk.js": "/item-to-replace/static/js/2.e10ad7c7.chunk.js",
+    "static/js/2.e10ad7c7.chunk.js.map": "/item-to-replace/static/js/2.e10ad7c7.chunk.js.map",
     "index.html": "/item-to-replace/index.html",
-    "precache-manifest.2195f1a9acd6d635634eba9a078d881c.js": "/item-to-replace/precache-manifest.2195f1a9acd6d635634eba9a078d881c.js",
+    "precache-manifest.b585e13eedf717cfdb9e9d03ac60336a.js": "/item-to-replace/precache-manifest.b585e13eedf717cfdb9e9d03ac60336a.js",
     "service-worker.js": "/item-to-replace/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/item-to-replace/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.341a633f.chunk.css.map": "/item-to-replace/static/css/main.341a633f.chunk.css.map",
-    "static/js/2.44f48699.chunk.js.LICENSE.txt": "/item-to-replace/static/js/2.44f48699.chunk.js.LICENSE.txt",
+    "static/css/main.914d348c.chunk.css.map": "/item-to-replace/static/css/main.914d348c.chunk.css.map",
+    "static/js/2.e10ad7c7.chunk.js.LICENSE.txt": "/item-to-replace/static/js/2.e10ad7c7.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/item-to-replace/static/media/logo.95c9c62d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b11940b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.44f48699.chunk.js",
-    "static/css/main.341a633f.chunk.css",
-    "static/js/main.8aa1b680.chunk.js"
+    "static/js/2.e10ad7c7.chunk.js",
+    "static/css/main.914d348c.chunk.css",
+    "static/js/main.776606cf.chunk.js"
   ]
 }
